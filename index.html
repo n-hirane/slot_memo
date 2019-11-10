@@ -1,41 +1,82 @@
-<h3>SLOT_叛逆の物語</h3>
+<head>
+    <title>SLOT_叛逆の物語</title>
+</head>
+<body>
 <form action="https://docs.google.com/forms/d/e/1FAIpQLSfqx5cndbTTc6PTSpf-pbzoYUdN-lLMylRoD_FjgArfzPwIgw/formResponse">
-  <div>
-    <label for="game">ゲーム数</label>
-    <input id="game" type="tel" name="entry.1254284189">
-  </div>
-  <div>
-    <label for="role">成立役</label>
-    <select name="name">
-      <option value="ベル">ベル</option>
-      <option value="リプレイ">リプレイ</option>
-      <option value="🍉">🍉</option>
-      <option value="弱🍒">弱🍒</option>
-      <option value="強🍒">強🍒</option>
-      <option value="チャンス目">チャンス目</option>
-      <option value="中段🍒">中段🍒</option>
-      <option value="特殊役">特殊役</option>
-    </select>
-  </div>
-  <div>
-    <label for="performance">演出</label>
-    <select name="name">
-      <option value="通常">通常</option>
-      <option value="夕方バス">夕方バス</option>
-      <option value="記憶の回廊">記憶の回廊</option>
-      <option value="発展演出">発展演出</option>
-      <option value="干渉遮断フィールド">干渉遮断フィールド</option>
-      <option value="キュゥべえチャレンジ">キュゥべえチャレンジ</option>
-      <option value="マギカボーナス">マギカボーナス</option>
-      <option value="エピソードボーナス">エピソードボーナス</option>
-      <option value="マギカラッシュ">マギカラッシュ</option>
-      <option value="上乗せ特化ゾーン">上乗せ特化ゾーン</option>
-      <option value="エンディング">エンディング</option>
-      <option value="プレミアム">プレミアム</option>
-      <option value="ロングフリーズ">ロングフリーズ</option>
-      <option value="穢れ蓄積">穢れ蓄積</option>
-      <option value="擬似連続">擬似連続</option>
-    </select>
-  </div>
-  <button type="submit" name="button" value="送信" style="width:50px;height:20px"></button>
+    <div>
+        <label for="game">ゲーム数:</label>
+        <input id="game" type="tel" name="entry.1254284189">
+    </div>
+    <div>
+        <label for="role">成立役</label><br>
+        <input id="bell" type="radio" name="" value="ベル">
+        <label id="bell">ベル&nbsp;&nbsp;</label>
+        <input id="replay" type="radio" name="" value="リプレイ">
+        <label id="replay">リプレイ</label><br>
+        <input id="suika" type="radio" name="" value="🍉">
+        <label id="suika">🍉&nbsp;&nbsp;</label>
+        <input id="j-cherry" type="radio" name="" value="弱🍒">
+        <label id="j-cherry">弱🍒&nbsp;&nbsp;</label>
+        <input id="k-cherry" type="radio" name="" value="強🍒">
+        <label id="k-cherry">強🍒</label><br>
+        <input id="chance" type="radio" name="" value="チャンス目">
+        <label id="chance">チャンス目&nbsp;&nbsp;</label>
+        <input id="c-cherry" type="radio" name="" value="中段🍒">
+        <label id="c-cherry">中段🍒&nbsp;&nbsp;</label>
+        <input id="special" type="radio" name="" value="特殊役">
+        <label id="special">特殊役&nbsp;&nbsp;</label><br>
+        <select name="name">
+            <option value="ベル">ベル</option>
+            <option value="リプレイ">リプレイ</option>
+            <option value="🍉">🍉</option>
+            <option value="弱🍒">弱🍒</option>
+            <option value="強🍒">強🍒</option>
+            <option value="チャンス目">チャンス目</option>
+            <option value="中段🍒">中段🍒</option>
+            <option value="特殊役">特殊役</option>
+        </select>
+    </div>
+    <div>
+        <label for="performance">演出</label><br>
+        <input id="normal" type="radio" name="" value="通常">
+        <label id="normal">通常</label><br>
+        <input id="evening_bus" type="radio" name="" value="夕方バス">
+        <label id="evening_bus">夕方バス</label><br>
+        <input id="./kioku.html" type="radio" name="" value="記憶の回廊">
+        <label id="./kioku.html">記憶の回廊</label><br>
+        <input id="./hatten.html" type="radio" name="" value="発展演出">
+        <label id="./hatten.html">発展演出</label><br>
+        <input id="./interference_blocking.html" type="radio" name="" value="干渉遮断フィールド">
+        <label id="./interference_blocking.html">干渉遮断フィールド</label><br>
+        <input id="./kyubey_challenge.html" type="radio" name="" value="キュゥべえチャレンジ">
+        <label id="./kyubey_challenge.html">キュゥべえチャレンジ</label><br>
+        <input id="./magica_bonus.html" type="radio" name="" value="マギカボーナス">
+        <label id="./magica_bonus.html">マギカボーナス</label><br>
+        <input id="episode_bonus" type="radio" name="" value="もう日曜なんていりませんわ！">
+        <label id="episode_bonus">
+            エピボ「もう日曜なんていりませんわ！」&nbsp;-> マギカラッシュへorいずれかの特化ゾーンへ突入
+        </label><br>
+        <input id="episode_bonus" type="radio" name="" value="夜の公園エピソード">
+        <label id="episode_bonus">
+            エピボ「夜の公園エピソード」&nbsp;-> マギカラッシュへorいずれかの特化ゾーンへ突入
+        </label><br>
+        <input id="episode_bonus" type="radio" name="" value="いったい何が目的なの？">
+        <label id="episode_bonus">
+            エピボ「いったい何が目的なの？」&nbsp;-> 「ほむらvsマミ」へ突入
+        </label><br>
+        <input id="episode_bonus" type="radio" name="" value="このまま魔女になってやる">
+        <label id="episode_bonus">
+            エピボ「このまま魔女になってやる」&nbsp;-> 「くるみ割り魔女」へ突入
+        </label><br>
+        <input id="episode_bonus" type="radio" name="" value="まるまる太って召し上がれ～">
+        <label id="episode_bonus">
+            エピボ「まるまる太って召し上がれ～」&nbsp;-> いずれかの特化ゾーンへ突入
+        </label><br>
+        <input id="episode_bonus" type="radio" name="" value="もう二度とあなたを離さない">
+        <label id="episode_bonus">
+            エピボ「もう二度とあなたを離さない」&nbsp;-> 悪魔ほむらゾーンへ突入
+        </label><br>
+    </div>
+    <button type="submit" name="button" value="送信" style="width:50px;height:20px"></button>
 </form>
+</body>
